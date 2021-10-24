@@ -6,7 +6,7 @@ export default class TestCLI extends Command {
   static description = '开发命令行工具'
 
   static examples = [
-    `$ gyro-cli create cli-name`,
+    `$ cgyro-cli create cli-name`,
   ]
 
   static flags = {

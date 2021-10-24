@@ -93,7 +93,7 @@ export const downloadGitRepo = async ({
             const path = targetDir;
             Object.assign(options, answers);
             tplDir(path, options);
-            finish('gyro', '初始化模板成功');
+            finish('CGYRO', '初始化模板成功');
             resolve(path);
           });
         });

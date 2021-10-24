@@ -6,7 +6,7 @@ export default class CreateCLI extends Command {
   static description = '开发命令行工具模板工程'
 
   static examples = [
-    `$ gyro-cli create name`,
+    `$ cgyro-cli create name`,
   ]
 
   static flags = {

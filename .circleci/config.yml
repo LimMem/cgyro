@@ -43,7 +43,7 @@ jobs:
 
 workflows:
   version: 2
-  "gyro":
+  "cgyro":
     jobs:
       - node-latest
       - node-12

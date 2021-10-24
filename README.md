@@ -17,30 +17,30 @@ gyro
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g gyro
-$ gyro COMMAND
+$ npm install -g cgyro
+$ cgyro COMMAND
 running command...
-$ gyro (-v|--version|version)
-gyro/0.0.1 darwin-x64 node-v12.20.0
-$ gyro --help [COMMAND]
+$ cgyro (-v|--version|version)
+cgyro/0.0.4 darwin-x64 node-v12.20.0
+$ cgyro --help [COMMAND]
 USAGE
-  $ gyro COMMAND
+  $ cgyro COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`gyro create-cli [APPNAME]`](#gyro-create-cli-appname)
-* [`gyro hello [FILE]`](#gyro-hello-file)
-* [`gyro help [COMMAND]`](#gyro-help-command)
+* [`cgyro create-cli [APPNAME]`](#cgyro-create-cli-appname)
+* [`cgyro hello [FILE]`](#cgyro-hello-file)
+* [`cgyro help [COMMAND]`](#cgyro-help-command)
 
-## `gyro create-cli [APPNAME]`
+## `cgyro create-cli [APPNAME]`
 
 开发命令行工具模板工程
 
 ```
 USAGE
-  $ gyro create-cli [APPNAME]
+  $ cgyro create-cli [APPNAME]
 
 OPTIONS
   -f, --force
@@ -48,18 +48,18 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ gyro-cli create cli-name
+  $ cgyro-cli create name
 ```
 
-_See code: [src/commands/create-cli.ts](https://github.com/LimMem/gyro/blob/v0.0.1/src/commands/create-cli.ts)_
+_See code: [src/commands/create-cli.ts](https://github.com/LimMem/gyro/blob/v0.0.4/src/commands/create-cli.ts)_
 
-## `gyro hello [FILE]`
+## `cgyro hello [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ gyro hello [FILE]
+  $ cgyro hello [FILE]
 
 OPTIONS
   -f, --force
@@ -67,19 +67,19 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ gyro hello
+  $ cgyro hello
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/LimMem/gyro/blob/v0.0.1/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/LimMem/gyro/blob/v0.0.4/src/commands/hello.ts)_
 
-## `gyro help [COMMAND]`
+## `cgyro help [COMMAND]`
 
-display help for gyro
+display help for cgyro
 
 ```
 USAGE
-  $ gyro help [COMMAND]
+  $ cgyro help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
